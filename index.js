@@ -4,9 +4,9 @@ const express = require('express')
 const app = express()
 const PORT = 3000
 
-app.listen(PORT, () => {
-  console.log(`API listening on PORT ${PORT} `)
-})
+app.set('views', './views');
+
+
 
 // app.get('/', (req, res) => {
 //   res.send('Hey this is my API running 🥳')
@@ -21,6 +21,10 @@ app.get("/", async (req, res) => {
       res.render("home.hbs")
 })
 
+
+app.listen(PORT, () => {
+  console.log(`API listening on PORT ${PORT} `)
+})
 
 // Export the Express API
 module.exports = app
