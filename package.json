@@ -17,10 +17,8 @@
     "express-session": "^1.17.3",
     "hbs": "^4.2.0",
     "lodash": "^4.17.21",
-    "mongoose": "^7.4.3",
-    "passport": "^0.6.0",
-    "passport-google-oauth2": "^0.2.0",
-    "passport-google-oauth20": "^2.0.0"
+    "mongoose": "^7.4.3"
+
   
 
   }
