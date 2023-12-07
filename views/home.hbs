@@ -16,29 +16,34 @@
     <title>Tasks Management</title>
 </head>
 
-<body>
-    <div class="container text-center">
-        <div class="card mt-3  shadow-lg ">
-            <div class="card-header d-flex">
-                <div class="fs-1 fw-bold mx-auto">Tasks Management <br />Application</div>
-                <div class="ms-auto d-flex flex-column justify-content-center">
-                    <div><img class="img-thumbnail rounded-circle" src="{{userDetail.picture}}" width="75" height="75"></div>
-                    <div> {{userName}}</div>
-                    <div>{{userEmail}}</div>
+<body >
+    <div class="container " >
+        <div class="card mt-3  shadow-lg "  style="min-height:90vh;" >
+            <div class="card-header d-flex justify-content-between  align-items-center"
+                style="background-color: #CCCCFF; padding-left: 100px;  padding-right: 100px;">
+                <div class="fs-1 fw-bold ">Tasks Management <br />Application</div>
+                <div class=" d-flex flex-row gap-3 justify-content-center">
+                    <div>
+                        <img class="img-thumbnail rounded-circle" src="{{userDetail.picture}}" width="75" height="75">
+                    </div>
+                    <div class="d-flex flex-column justify-content-center text-left align-items-start">
+                        <div> {{userName}}</div>
+                        <div>{{userEmail}}</div>
+                    </div>
                 </div>
             </div>
-            <div class="card-body d-flex p-4 gap-5 flex-column justify-content-center">
+            <div class="card-body d-flex p-4 gap-5 flex-column text-center justify-content-center align-items-center">
                 <p>by</p>
                 <div>
-                    <h2>James Bond</h2>
-                    <h4>Licensed to Kill</h4>
+                    <h2>Abhishek Kumar</h2>
+                    <h4>Sudent of Georgian college</h4>
                 </div>
                 <div>
                     <a class="btn btn-primary" style="width: fit-content;" href="service">Assignment #2</a>
                 </div>
             </div>
 
-            <div class="card-footer"> University of Tambakto, Chhamak Chhallo Department, Rim Jhim State.</div>
+            <div class=" py-1 card-footer text-center fs-3 " style="background-color: #9999FF;">Georgian college, Barrie, ON, Canada.</div>
 
 
         </div>
